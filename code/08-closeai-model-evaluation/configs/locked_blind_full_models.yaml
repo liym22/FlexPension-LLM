@@ -1,0 +1,108 @@
+models:
+  - family: claude
+    short_name: claude_sonnet_4_6
+    model_id: claude-sonnet-4-6
+    input_price_rmb_per_1m: 31.5
+    output_price_rmb_per_1m: 157.5
+    hard_stop_rmb: 900
+    projected_stop_rmb: 900
+  - family: claude
+    short_name: claude_sonnet_5
+    model_id: claude-sonnet-5
+    input_price_rmb_per_1m: 31.5
+    output_price_rmb_per_1m: 157.5
+    omit_temperature: true
+    hard_stop_rmb: 700
+    projected_stop_rmb: 700
+  - family: openai
+    short_name: gpt_5_4_mini
+    model_id: gpt-5.4-mini
+    input_price_rmb_per_1m: 7.875
+    output_price_rmb_per_1m: 47.25
+    max_tokens_param: max_completion_tokens
+    hard_stop_rmb: 150
+    projected_stop_rmb: 150
+  - family: openai
+    short_name: gpt_5_4
+    model_id: gpt-5.4
+    input_price_rmb_per_1m: 26.25
+    output_price_rmb_per_1m: 157.5
+    max_tokens_param: max_completion_tokens
+    hard_stop_rmb: 500
+    projected_stop_rmb: 500
+  - family: openai
+    short_name: gpt_5_5
+    model_id: gpt-5.5
+    input_price_rmb_per_1m: 52.5
+    output_price_rmb_per_1m: 315
+    max_tokens_param: max_completion_tokens
+    omit_temperature: true
+    hard_stop_rmb: 1400
+    projected_stop_rmb: 1400
+  - family: openai
+    short_name: gpt_5_6_sol
+    model_id: gpt-5.6-sol
+    input_price_rmb_per_1m: 52.5
+    output_price_rmb_per_1m: 315
+    max_tokens_param: max_completion_tokens
+    omit_temperature: true
+    hard_stop_rmb: 700
+    projected_stop_rmb: 700
+  - family: gemini
+    short_name: gemini_3_1_pro_preview
+    model_id: gemini-3.1-pro-preview
+    input_price_rmb_per_1m: 21
+    output_price_rmb_per_1m: 126
+    max_tokens: 8192
+    hard_stop_rmb: 1200
+    projected_stop_rmb: 1200
+  - family: qwen
+    short_name: qwen3_7_plus
+    model_id: qwen3.7-plus
+    input_price_rmb_per_1m: 3.15
+    output_price_rmb_per_1m: 12.6
+    hard_stop_rmb: 250
+    projected_stop_rmb: 250
+  - family: deepseek
+    short_name: deepseek_v4_pro
+    model_id: deepseek-v4-pro
+    input_price_rmb_per_1m: 18.9
+    output_price_rmb_per_1m: 37.8
+    max_tokens: 8192
+    hard_stop_rmb: 600
+    projected_stop_rmb: 600
+  - family: minimax
+    short_name: minimax_m2_5
+    model_id: MiniMax-M2.5
+    input_price_rmb_per_1m: 1.68
+    output_price_rmb_per_1m: 6.72
+    hard_stop_rmb: 100
+    projected_stop_rmb: 100
+  - family: claude
+    short_name: claude_opus_4_6
+    model_id: claude-opus-4-6
+    input_price_rmb_per_1m: 52.5
+    output_price_rmb_per_1m: 262.5
+    hard_stop_rmb: 1100
+    projected_stop_rmb: 1100
+  - family: claude
+    short_name: claude_opus_4_7
+    model_id: claude-opus-4-7
+    input_price_rmb_per_1m: 52.5
+    output_price_rmb_per_1m: 262.5
+    hard_stop_rmb: 1000
+    projected_stop_rmb: 1000
+  - family: claude
+    short_name: claude_opus_4_8
+    model_id: claude-opus-4-8
+    input_price_rmb_per_1m: 52.5
+    output_price_rmb_per_1m: 262.5
+    hard_stop_rmb: 1100
+    projected_stop_rmb: 1100
+  - family: claude
+    short_name: claude_fable_5
+    model_id: claude-fable-5
+    input_price_rmb_per_1m: 105
+    output_price_rmb_per_1m: 525
+    hard_stop_rmb: 2500
+    projected_stop_rmb: 2500

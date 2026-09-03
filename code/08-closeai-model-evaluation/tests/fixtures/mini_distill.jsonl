@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"家庭ID: 1\n个人ID: 1\nprompt A"},{"role":"assistant","content":"{\"household_id\":\"1\",\"individual_id\":\"1\",\"insurance_decision\":{\"action\":\"参保\",\"insurance_type\":\"城乡居民养老保险\"}}"}]}
+{"messages":[{"role":"user","content":"家庭ID: 1\n个人ID: 2\nprompt B"},{"role":"assistant","content":"{\"household_id\":\"1\",\"individual_id\":\"2\",\"insurance_decision\":{\"action\":\"不参保\",\"insurance_type\":\"不参保\"}}"}]}

@@ -1,0 +1,5 @@
+model	total	total_error	accuracy	A_false_negative	C_false_positive	other_error	A_share	C_share	other_share
+Baseline Claude	2350	468	0.800851	311	126	31	0.664530	0.269231	0.066239
+Baseline Qwen	2350	698	0.702979	215	397	86	0.308023	0.568768	0.123209
+DKI-Claude	2350	246	0.895319	155	60	31	0.630081	0.243902	0.126016
+Qwen-LoRA	2350	218	0.907234	118	72	28	0.541284	0.330275	0.128440

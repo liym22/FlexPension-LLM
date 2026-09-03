@@ -1,0 +1,35 @@
+run_type: external_new
+datasets:
+  chfs2017_new:
+    prompts: data/prompts/generalization/chfs2017/prompts_2017_v2.json
+    ground_truth: data/prompts/generalization/chfs2017/ground_truth_2017_v2.json
+    expected_size: 500
+  chip2018_new:
+    prompts: data/prompts/generalization/chip2018/prompts_chip_new.json
+    ground_truth: data/prompts/generalization/chip2018/ground_truth_chip_new.json
+    expected_size: 500
+  clds2018_new:
+    prompts: data/prompts/generalization/clds2018/prompts_clds_new.json
+    ground_truth: data/prompts/generalization/clds2018/ground_truth_clds_new.json
+    expected_size: 500
+  cfps2018_new:
+    prompts: data/prompts/generalization/cfps2018/prompts_cfps_new.json
+    ground_truth: data/prompts/generalization/cfps2018/ground_truth_cfps_new.json
+    expected_size: 500
+api:
+  temperature: 0.5
+  max_tokens: 2048
+  concurrency_per_model: 5
+  adaptive_concurrency:
+    enabled: true
+    min: 5
+    max: 6
+    increase_every_successes: 25
+    cooldown_seconds: 60
+  retry_count: 3
+  retry_base_delay: 2
+budget:
+  warning_rmb: 2400
+  hard_stop_rmb: 3000
+  check_interval_samples: 25
+  min_projection_samples: 50

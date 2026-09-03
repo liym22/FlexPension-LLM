@@ -1,0 +1,22 @@
+run_type: blind
+dataset:
+  kind: distill_jsonl
+  path: data/distillation/datasets/full/test.jsonl
+  expected_size: 2350
+api:
+  temperature: 0.5
+  max_tokens: 2048
+  concurrency_per_model: 5
+  adaptive_concurrency:
+    enabled: true
+    min: 5
+    max: 6
+    increase_every_successes: 25
+    cooldown_seconds: 60
+  retry_count: 3
+  retry_base_delay: 2
+budget:
+  warning_rmb: 8000
+  hard_stop_rmb: 10000
+  check_interval_samples: 25
+  min_projection_samples: 50

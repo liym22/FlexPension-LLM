@@ -1,0 +1,27 @@
+# Credentials and local environments
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Controlled-access survey data and generated sample-level artifacts
+data/raw/*
+!data/raw/policy/
+!data/raw/policy/**
+data/processed/
+data/prompts/
+data/teacher_inference/
+data/distillation/
+
+# Local model/training artifacts
+checkpoints/
+adapters/
+logs/
+*.log
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

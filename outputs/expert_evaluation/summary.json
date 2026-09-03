@@ -1,0 +1,50 @@
+{
+  "design": {
+    "respondents": 27,
+    "cases": 12,
+    "models": 3,
+    "ratings_per_model": 324,
+    "trust_choices": 324
+  },
+  "models": {
+    "qwen_zs": {
+      "soundness_mean": 3.1358024691358026,
+      "soundness_sd": 1.0350284412389117,
+      "completeness_mean": 2.9691358024691357,
+      "completeness_sd": 1.115180028261124,
+      "mean_rating": 3.052469135802469,
+      "trust_count": 50,
+      "trust_share": 0.15432098765432098
+    },
+    "claude_sonnet_4_5_teacher": {
+      "soundness_mean": 3.4722222222222223,
+      "soundness_sd": 0.9520224520598273,
+      "completeness_mean": 3.3950617283950617,
+      "completeness_sd": 1.0129686909935698,
+      "mean_rating": 3.433641975308642,
+      "trust_count": 117,
+      "trust_share": 0.3611111111111111
+    },
+    "flexpension_llm": {
+      "soundness_mean": 3.537037037037037,
+      "soundness_sd": 0.9253157030585817,
+      "completeness_mean": 3.45679012345679,
+      "completeness_sd": 0.9546935736625414,
+      "mean_rating": 3.496913580246914,
+      "trust_count": 157,
+      "trust_share": 0.4845679012345679
+    }
+  },
+  "respondent_comparisons": {
+    "flexpension_llm_over_qwen_zs": {
+      "higher_mean_rating": 24,
+      "higher_trust_share": 24,
+      "respondents": 27
+    },
+    "flexpension_llm_over_claude_sonnet_4_5_teacher": {
+      "higher_mean_rating": 15,
+      "higher_trust_share": 17,
+      "respondents": 27
+    }
+  }
+}

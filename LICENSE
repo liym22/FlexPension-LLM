@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2026 Yumiao Li, Peixin Liu, Donglin Di, Chen Li, and Runhuan Feng
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DATA LICENSE NOTICE:
+
+The original survey microdata (CHFS, CFPS, CHIP, CLDS) are NOT included and are
+subject to their respective data use agreements:
+
+- CHFS (China Household Finance Survey): Contact chfsdata@swufe.edu.cn
+- CFPS (China Family Panel Studies): Contact cfps@pku.edu.cn
+- CHIP (Chinese Household Income Project): Contact chip@bnu.edu.cn
+- CLDS (China Labor-force Dynamics Survey): Contact clds@sysu.edu.cn
+
+Users must obtain data access independently and comply with all data use restrictions.
+The included province-policy workbooks are compilations of public policy information;
+their source URLs are recorded in the workbooks. Included result files contain only
+aggregate, non-identifying statistics.
+
+MODEL WEIGHTS NOTICE:
+
+Trained model weights are NOT released due to:
+1. Potential memorization of sensitive survey data
+2. Data use agreement restrictions prohibiting derivative distribution
+3. The controlled-access status of the underlying survey records
+
+The included code and recorded parameters support reproduction after users obtain
+the controlled-access data, required model access, APIs, and compatible hardware.
