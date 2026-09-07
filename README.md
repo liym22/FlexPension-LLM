@@ -1,6 +1,7 @@
 # FlexPension-LLM Reproducibility Package
 
-**Paper:** *Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers*
+**Paper:** *Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers*  
+**arXiv:** [2609.05189](https://arxiv.org/abs/2609.05189)
 
 **Authors:** Yumiao Li, Peixin Liu, Donglin Di, Chen Li, Runhuan Feng
 
